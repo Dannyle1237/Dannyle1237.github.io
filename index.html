@@ -20,26 +20,52 @@
         </div>
     </div>
     <div id="info-page" style="display:none">
+        <link rel="stylesheet" href="info.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
         <img src="./icons/statefarmlogo.png " style="width:50%; margin:auto; display:block; padding:50px">
-        <h1 class="title">Boat Insurance</h1>
-        <h2 class="header">Perils We Insure Against</h2>
+        <h1 class="title">Boat Insurance by State Farm</h1>
+        <h2 class="header">Perils we insure against</h2>
         <button class="btn btn-danger" onclick="moreInformation('perilsInfo', 'Insure your boat against damage and loss caused by common risks, such as sinking, fire, theft, storms, collision, capsizing, explosion and stranding. The property usually covers the boat hull, boat motor(s), described boat equipment and the boat trailer if requested. Property coverage can also include property such as permanently attached boat equipment, anchors, oars, dinghies, and much more!')">More info</button>
         <p id="perilsInfo"></p>
         <div class="scrollmenu">
-            <img src="./icons/jake.png">
-            <img src="./icons/jake.png">
-            <img src="./icons/jake.png">
+            <img src="./icons/shipwreck.jpeg" style="height:225px">
+            <img src="./icons/boatonfire.jpeg" style="height:225px">
+            <img src="./icons/capsized.webp" style="height:225px">
+            <img src="./icons/collision.jpeg" style="height:225px">
         </div>
         <div>
             <h2 class="header">Types of boats insured</h2>
             <button class="btn btn-danger" onclick="moreInformation('boatsInsured', 'State Farm offers boat insurance for multiple water-going types.')">More info</button>
             <p id="boatsInsured"></p>
             <div class="scrollmenu">
-                <img src="./icons/jake.png">
-                <img src="./icons/jake.png">
-                <img src="./icons/jake.png">
+                <img src="./icons/jake.jpeg">
+                <img src="./icons/jake.jpeg">
+                <img src="./icons/jake.jpeg">
             </div>
         </div>
+        <h2 class="header">Boat liability insurance coverage</h2>
+        <p>If your boat causes injury to others or damage to other boats, docks, or structures, boat liability insurance has you covered.</p>
+        <h2 class="header">Coverages included in base contract</h2>
+        <ul>
+            <p>Newly Acquired Boat</p>
+            <p>Temporary repairs</p>
+            <p>Emergency service</p>
+            <p>Wreck removal</p>
+        </ul>
+        <h2 class="header">Optional coverages</h2>
+        <ul>
+            <p>Boat rental liability</p>
+            <p>Boat rental reimbursement and liability</p>
+            <p>Incidental commercial fishing</p>
+            <p>Boat rented to others</p>
+        </ul>
+        <button class="btn btn-danger" onClick="window.location.href='https://www.statefarm.com/insurance/boats';">View more details, Request a quote!</button>
+        <a href="https://www.statefarm.com/insurance">View other State Farm insurance policies</a>
+        <script src="info.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
