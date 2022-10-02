@@ -87,3 +87,7 @@ function moreInformation(section, information) {
     }
     clicked = (clicked+1)%2;
 }
+
+function sendtoStatefarm(){
+    window.location.href='https://www.statefarm.com/insurance/boats';
+}

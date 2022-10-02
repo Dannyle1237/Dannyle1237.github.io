@@ -1,5 +1,7 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
+    font-size: 20px;
+    text-align: center;
 }
 
 .game {
@@ -9,7 +11,6 @@
     margin: auto;
     background-image: url(./icons/background.gif);
 }
-
 #boat {
     width: 124px; 
     height: 124px;
@@ -101,14 +102,42 @@
     border-top: 0px;
     border-color: black;
 }
+#dropdown{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position:relative;
+    width: 125px;
+    font-size: 20px;
+}
+.menu-button a,  .menu-button a:hover, .menu-button a:active { 
+color:#fff !important;
+}
+
+.centerbtn{
+    text-align: center;
+}
+#footerButton{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.menu-button a,  .menu-button a:hover, .menu-button a:active { 
+color:#fff !important;
+}
 body{
     background-color: #F7F0E4;
     height:200%;
 }
 
 
-.title {
+.mb-3 {
     color: red;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 div.scrollmenu {
@@ -126,11 +155,31 @@ div.scrollmenu p {
     clear: both;
 }
 
+.divwht{
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.divbge{
+    background-color: #F7F0E4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 .header {
-    color: #403c3c;
+    color: red;
+    font-weight:bold;
+    text-align: center;
+    font-size: 35px;
+    
     /*float: left;*/
 }
 
+.list-group-item{
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
 #info-page {
     background-color: #F7F0E4;
     margin-top: 150px;
