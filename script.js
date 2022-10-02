@@ -9,9 +9,10 @@ function incrementSeconds() {
 }
 
 var cancel = setInterval( incrementSeconds, 1000);
-
+var audio = new Audio('./Music/dinoJump2.mp3');
 let gameOn = true;
 function jump () {
+    audio.play();
     if (boat.classList != "jump") {
         boat.classList.add("jump");
     }
@@ -31,7 +32,7 @@ let isAlive = setInterval(function () {
     {
         if(boatTop >= 75){
             if(gameOn){
-                if(confirm("CHECK OUT BOAT INSURANCE")){
+                if(confirm("Oh no! It looks like you've damaged your (uninsured) boat. Don't you wish you had some boat insurance?")){
                     clearInterval(cancel);
                     console.log("true");
                     document.getElementById("info-page").scrollIntoView();
